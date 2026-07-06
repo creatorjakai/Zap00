@@ -4,17 +4,27 @@ if ... == ... :
 if ... > ... :
 if ... < ... :
 if ... = ... :
+--------------------
 else statements
 --------------------
 else:
+--------------------
 elseif statements
 --------------------
 elseif ... == ... :
 elseif ... > ... :
 elseif ... < ... :
 elseif ... = ... :
+--------------------
 try statement
 --------------------
 try:
 
 except Error:
+--------------------
+variable making
+--------------------
+variable = "Hello World"
+--------------------
+comment in your script
+#hello world
