@@ -1,0 +1,55 @@
+load <system> - Imports the library "system"
+--------------------------
+setup.system() - Initializes the library "system"
+--------------------------
+system.os() - Get the currently running operating system
+system.os.version() - Gets the version of the currently running operating system
+system.arch() - Gets the architecture of the currently running operating system
+--------------------------
+system.process.list() - Gets the list of all currently running processes
+system.process.kill(minecraft) - Kills the process minecraft
+system.process.refresh(minecraft) - Refreshes the process minecraft
+system.process.cpu_usage(minecraft) - Gets the cpu-usage of the process minecraft
+system.process.gpu_usage(minecraft) - Gets the gpu-usage of the process minecraft 
+system.process.ram_usage(minecraft) - Gets the ram-usage of the process minecraft 
+--------------------------
+system.cpu.speed() - Gets the base speed of the cpu
+system.cpu.speed.using() - Gets the current speed of the cpu
+system.cpu.cores() - Gets the number of cores in the cpu
+system.cpu.cores.using() - Gets the number of current using cores
+system.cpu.temperature() - Gets the current temperature of the cpu
+system.cpu.runtime() - Gets the total runtime of the cpu since boot
+--------------------------
+system.gpu.speed() - Gets the base speed of the gpu
+system.gpu.speed.using() - Gets the current speed of the gpu
+system.gpu.cores() - Gets the number of cores in the gpu
+system.gpu.cores.using() - Gets the number of current using cores
+system.gpu.temperature() - Gets the current temperature of the gpu
+system.gpu.runtime() - Gets the total runtime of the gpu since boot
+--------------------------
+system.ram.speed() - Gets the base speed of the ram
+system.ram.speed.using() - Gets the current speed of the ram
+system.ram.space() - Gets the total space of the ram
+system.ram.space.using() - Gets the total of ram space currently used
+system.ram.runtime() - Gets the total runtime of the ram since boot
+--------------------------
+system.storage() - Gets the total space of the disk
+system.storage.left() - Gets the total space of the disk left
+system.storage.read(C:/Users/User/Documents/text.txt) - Gets the document text.txt out of C:/Users/User/Documents
+system.storage.write(C:/Users/User/Documents/text1.txt) = "Hello World" - Writes "Hello World" to text1.txt in C:/Users/User/Documents
+system.storage.remove(C:/Users/User/Documents/text1.txt) - Removes the file text1.txt in C:/Users/User/Documents
+--------------------------
+system.network.ip() - Gets the current ip of the user
+system.network.ping(wss://google.com) - Pings wss server called "google.com" 
+system.network.status() - Checks if the user is connected to the internet (Connected = True, Not connected = False)
+--------------------------
+system.battery.status() - Gets the status of the battery (Charging = True, Not charging = False)
+system.battery.temperature() - Gets the current temperature of the battery
+system.battery.percentage() - Gets the current percentage of the battery
+system.battery.usage() - Gets the usage of the battery in Watts (W)
+system.battery.time_left() - Gets the time left before the battery dies in seconds
+--------------------------
+system.screen.main() - Gets the name of the main monitor
+system.screen.resolution() - Gets the current screen resolution of the main screen
+system.screen.refresh_rate() - Gets the current refresh rate of the main screen
+system.screen.brightness() - Gets the current brightness of the main screen
