@@ -1,0 +1,15 @@
+load <string> - Imports the library "string"
+--------------------------
+setup.string() - Initializes the library "string"
+--------------------------
+string.length("Hello World") - Gets the length of "Hello World"
+string.length(variable) - Gets the length of variable
+--------------------------
+string.split((1,5) in "Hello World") - Splits letter 1 to 5 from the rest, output = "Hello"
+string.split((1,5) in variable) - Splits letter 1 to 5 from the rest, output = "letter 1 to 5 from variable"
+--------------------------
+string.replace("Hello" in "Hello World" with "World") - Replaces "Hello" in "Hello World" with "World"
+string.replace("Hello" in variable with "World") - Replaces "Hello" in variable with "World"
+--------------------------
+string.find("Hello" in variable) - If "Hello" found in variable = True, not found = False
+string.find("Hello" in "Hello World") - If "Hello" found in "Hello World" = True, not found = False
