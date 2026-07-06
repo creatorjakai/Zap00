@@ -1,0 +1,12 @@
+load <text> - Imports the library "text"
+--------------------------
+setup.text() - Initializes the library "text"
+setup.text.font(C:/Users/User/Fonts/customfont.zapfnt) - Loads a custom font from your pc that can be used in your script
+--------------------------
+text.color(0) - Sets the text color to 0 (black) IMPORTANT: THIS DOES NOT AFFECT THE LOAD TEXT FUNCTION
+text.size(100) - Sets the text size to 100 (normal) IMPORTANT: THIS DOES NOT AFFECT THE LOAD TEXT FUNCTION 
+text.font("Sans Serif") - Sets the text font to "Sans Serif" IMPORTANT: THIS DOES NOT AFFECT THE LOAD TEXT FUNCTION 
+--------------------------
+text.write((0,0), "Hello World") - (x,y) Writes "Hello World" in the center of the screen
+text.write_file((0,0), C:/Users/User/Documents/document.zaptxt) - Loads a text file from your files and shows it at (0,0)
+text.clear() - Clears all text currently displayed
