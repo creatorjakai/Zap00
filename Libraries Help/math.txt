@@ -1,0 +1,10 @@
+load <math> - Imports the library "math"
+--------------------------
+setup.math() - Initializes the library "math"
+--------------------------
+math.sqrt()
+math.pow()
+math.sin()
+math.cos()
+math.round()
+math.random()
