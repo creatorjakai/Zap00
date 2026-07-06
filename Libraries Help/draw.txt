@@ -1,0 +1,9 @@
+load <draw> - Imports the library "draw"
+--------------------------
+setup.draw() - Initializes the library "draw"
+--------------------------
+draw.color(0) - Sets the draw color to 0 (black) IMPORTANT: THIS DOES NOT AFFECT THE IMAGE DRAW FUNCTION
+draw.brightness(0) - Sets the draw brightness to 0 IMPORTANT: THIS DOES NOT AFFECT THE IMAGE DRAW FUNCTION
+--------------------------
+draw.image((0, 0), C:/Users/User/Images/image.zapimg) - Draws image.zapimg in the center of the screen
+draw.line((-10,10)(10,10)(10,-10)(-10,-10) - (x,y) This makes the line start at (-10,10) then in order go to the other point and end at (-10,-10)
