@@ -42,6 +42,8 @@ system.storage.remove(C:/Users/User/Documents/text1.txt) - Removes the file text
 system.network.ip() - Gets the current ip of the user
 system.network.ping(wss://google.com) - Pings wss server called "google.com" 
 system.network.status() - Checks if the user is connected to the internet (Connected = True, Not connected = False)
+system.network.send("Hello World", wss://google.com) - Sends "Hello World" to the wss server called "google.com"
+system.network.get("Hello World", wss://google.com) - Gets "Hello World" from the wss server called "google.com" 
 --------------------------
 system.battery.status() - Gets the status of the battery (Charging = True, Not charging = False)
 system.battery.temperature() - Gets the current temperature of the battery
