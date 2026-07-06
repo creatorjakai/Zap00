@@ -12,4 +12,9 @@ elseif statements
 elseif ... == ... :
 elseif ... > ... :
 elseif ... < ... :
-elseif ... = ... : 
+elseif ... = ... :
+try statement
+--------------------
+try:
+
+except Error:
