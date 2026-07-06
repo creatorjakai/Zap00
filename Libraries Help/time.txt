@@ -1,0 +1,17 @@
+load <time> - Imports the library "time"
+--------------------------
+setup.time() - Initializes the library "time"
+--------------------------
+time.wait(1) - Wait 1 second
+--------------------------
+time.timer.start(timer1) - Starts timer1
+time.timer.stop(timer1) - Stops timer1
+time.timer.remove(timer1) - Deletes timer1
+time.timer(timer1) - Gets the current time of timer1
+--------------------------
+time.current(second) - Gets the current second
+time.current(minute) - Gets the current minute 
+time.current(hour) - Gets the current hour 
+time.current(day) - Gets the current day
+time.current(month) - Gets the current month 
+time.current(year) - Gets the current year 
