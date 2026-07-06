@@ -1,0 +1,9 @@
+load <iouser> - Imports the library "iouser"
+--------------------------
+setup.iouser() - Initializes the library "iouser"
+--------------------------
+iouser.output("Hello World") - Outputs "Hello World"
+iouser.outpur(input) - Outputs the variable:input
+--------------------------
+iouser.input("Name: ") - Asks the user "Name: "
+iouser.input(name) - Asks the user variable:name
