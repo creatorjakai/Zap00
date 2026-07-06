@@ -1,0 +1,15 @@
+if statements
+--------------------
+if ... == ... :
+if ... > ... :
+if ... < ... :
+if ... = ... :
+else statements
+--------------------
+else:
+elseif statements
+--------------------
+elseif ... == ... :
+elseif ... > ... :
+elseif ... < ... :
+elseif ... = ... : 
