@@ -1,0 +1,8 @@
+load <mouse> - Imports the library "mouse"
+--------------------------
+setup.mouse() - Initializes the library "mouse"
+--------------------------
+mouse.left() - Gets if the left mouse button is clicked (if clicked the output = True, if not clicked the output = False)
+mouse.right() - Gets if the right mouse button is clicked (if clicked the output = True, if not clicked the output = False)
+mouse.x() - Gets the x position of the mouse (0,0 is the center of the screen), (x,y)
+mouse.y() - Gets the y position of the mouse (0,0 is the center of the screen), (x,y)
